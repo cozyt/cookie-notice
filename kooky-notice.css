@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/**
+ * CONTENTS
+ * The styling for the cookie notice snippet does not include visual or
+ * positional styles but handles functional styling so that the snippet can be
+ * used without the need for javascript.
+ *
+ * BASE
+ * Cookie notice................The main cookie notice container
+ * State........................Store the display state of the notice
+ * Content......................Wrapper to handle the display state
+ * Message......................Wrapper for actual message of the cookie notice
+ * Button.......................Button to toggle notice state
+ * 
+ * @url https://bitbucket.org/cozyt/kooky-notice
+ * @author  A. Harvey @since 0.1
+ * @version  0.1
+ * @since  0.1
+ */
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+
+.kooky-notice {
+	overflow: hidden;
+}
+
+	.kooky-notice__state {
+		position: absolute;
+		left: -20px;
+	}
+
+		.kooky-notice__state:checked + .kooky-notice__content {
+			height: 0;
+		}
+
+
+	.kooky-notice__content {
+		-webkit-transition: all 1s linear;
+		   -moz-transition: all 1s linear;
+		    -ms-transition: all 1s linear;
+			 -o-transition: all 1s linear;
+				transition: all 1s linear;
+		height: auto;
+	}
+
+		/*.kooky-notice__message*/
+
+
+		.kooky-notice__btn {
+			cursor: pointer;
+		}

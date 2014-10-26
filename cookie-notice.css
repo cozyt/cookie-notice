@@ -13,7 +13,7 @@
  * Message......................Wrapper for actual message of the cookie notice
  * Button.......................Button to toggle notice state
  * 
- * @url https://bitbucket.org/cozyt/kooky-notice
+ * @url https://bitbucket.org/cozyt/cookie-notice
  * @author  A. Harvey @since 0.1
  * @version  0.1
  * @since  0.1
@@ -23,21 +23,21 @@
     BASE
 \*------------------------------------*/
 
-.kooky-notice {
+.cookie-notice {
 	overflow: hidden;
 }
 
-	.kooky-notice__state {
+	.cookie-notice__state {
 		position: absolute;
 		left: -20px;
 	}
 
-		.kooky-notice__state:checked + .kooky-notice__content {
+		.cookie-notice__state:checked + .cookie-notice__content {
 			height: 0;
 		}
 
 
-	.kooky-notice__content {
+	.cookie-notice__content {
 		-webkit-transition: all 1s linear;
 		   -moz-transition: all 1s linear;
 		    -ms-transition: all 1s linear;
@@ -46,9 +46,9 @@
 		height: auto;
 	}
 
-		/*.kooky-notice__message*/
+		/*.cookie-notice__message*/
 
 
-		.kooky-notice__btn {
+		.cookie-notice__btn {
 			cursor: pointer;
 		}

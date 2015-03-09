@@ -33,7 +33,7 @@
 	}
 
 		.cookie-notice__state:checked + .cookie-notice__content {
-			height: 0;
+			margin-top: -500px;
 		}
 
 

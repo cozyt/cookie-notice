@@ -1,0 +1,12 @@
+{
+	"name": "cozyt/analytics",
+	"description": "A cookie notice snippet that does not include visual or positional styles but handles functional styling so that the snippet can be used without the need for javascript.",
+	"homepage": "http://bitbucket.org/cozyt/cookie-notice",
+	"keywords": ["php", "blade", "cookie"],
+	"authors": [
+		{
+			"name": "A Harvey",
+			"homepage": "https://bitbucket.org/cozyt"
+		}
+	]
+}

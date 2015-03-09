@@ -14,7 +14,7 @@
 
 
 <div class="cookie-notice">
-	<input type="checkbox" name="cookie-notice__state" id="cookie-notice__state" value="1" class="cookie-notice__state" />
+	<input type="checkbox" name="cookie-notice__state" id="cookie-notice__state" value="1" class="cookie-notice__state" {{ $checked or '' }}/>
 
 	<div class="cookie-notice__content">
 		<div class="cookie-notice__message">

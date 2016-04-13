@@ -1,12 +1,13 @@
 {
 	"name": "cozyt/cookie-notice",
 	"description": "A cookie notice snippet that does not include visual or positional styles but handles functional styling so that the snippet can be used without the need for javascript.",
-	"homepage": "http://bitbucket.org/cozyt/cookie-notice",
-	"keywords": ["php", "blade", "cookie"],
+	"homepage": "https://github.com/cozyt/cookie-notice",
+	"keywords": ["php", "laravel", "cookie"],
 	"authors": [
 		{
 			"name": "A Harvey",
-			"homepage": "https://bitbucket.org/cozyt"
+			"homepage": "https://github.com/cozyt"
 		}
 	]
 }
+

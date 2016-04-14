@@ -4,4 +4,4 @@ A cookie notice snippet that does not include visual or positional styles but ha
 
 ## Version
 
-0.2
+0.2.1

@@ -14,11 +14,11 @@
 ?>
 
 <div class="cookie-notice">
-	<input type="checkbox" name="cookie-notice__state" id="cookie-notice__state" value="1" class="cookie-notice__state" <?php isset($checked) ? $checked : ''; ?>/>
+	<input type="checkbox" name="cookie-notice__state" id="cookie-notice__state" value="1" class="cookie-notice__state" <?php echo isset($checked) ? $checked : ''; ?>/>
 
 	<div class="cookie-notice__content">
 		<div class="cookie-notice__message">
-			<?php isset($message) ? $message : 'Awaiting cookie notice'; ?>
+			<?php echo isset($message) ? $message : 'Awaiting cookie notice'; ?>
 		</div>
 
 		<label for="cookie-notice__state" class="cookie-notice__btn"><span>Close</span></label>

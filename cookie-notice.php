@@ -21,6 +21,6 @@
 			<?php echo isset($message) ? $message : 'Awaiting cookie notice'; ?>
 		</div>
 
-		<label for="cookie-notice__state" class="cookie-notice__btn"><span>Close</span></label>
+		<label for="cookie-notice__state" class="cookie-notice__btn"><span><?php echo isset($button_text) ? $button_text : 'Close'; ?></span></label>
 	</div>
 </div>
